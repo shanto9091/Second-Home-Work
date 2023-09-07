@@ -1,0 +1,672 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navigation{
+    width: 100%;
+    height: 110px;
+    
+}
+.navigation .navbar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation .navbar .logo{
+    width: 20%;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    margin-top: 25px;
+}
+.navigation .navbar .option{
+    align-items: center;
+    margin-left: 500px;
+}
+.navigation .navbar .option ul{
+    list-style: none;
+}
+.navigation .navbar .option ul li{
+    float: left;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.navigation .navbar .option ul li a{
+    text-decoration: none;
+    color: rgb(114, 110, 110);
+    font-size: 15px;
+}
+.navigation .navbar .option ul li a:hover{
+    color: black;
+}
+.navigation .navbar .btn{
+    margin-right: 90px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.navigation .navbar .btn button{
+    color: orange;
+    background-color: rgb(5, 5, 80);
+    outline: none;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid rgb(221, 219, 219);
+    cursor: pointer;
+}
+.navigation .navbar .btn button:hover{
+    color: black;
+    background-color: white;
+    transition: .3s;
+    
+}
+/*Section1 Start*/
+.section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.section .sec1img img{
+   width: 550px;
+   margin-top: 30px;
+}
+.section1{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.section1 h6{
+    width: 30%;
+    background-color: rgb(255, 230, 195);
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    border-radius: 50px;
+    color: orange;
+}
+.section1 h1{
+    width: 70%;
+    font-size: 40px;
+    color: rgb(5, 5, 80);
+
+}
+.section1 p{
+    width: 85%;
+    color: rgb(160, 156, 156);
+    font-size: 15px;
+    line-height: 22px;
+}
+.section1 button{
+    margin-top: 30px;
+}
+.section1 .btn1{
+    padding: 15px 22px;
+    background-color: rgb(5, 5, 80);
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.section1 .btn1:hover{
+    background-color: white;
+    color: rgb(94, 91, 91);
+    transition: .3s;
+}
+.section1 .btn2{
+    padding: 15px 30px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.section1 .btn2:hover{
+    background-color: rgb(5, 5, 80);
+    color: white;
+    transition: .3s;
+}
+
+/*Section1 End*/
+
+
+
+/*Section2 Start*/
+.section2{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+.section2 .sectwohed{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .sectwohed h6{
+    background-color: rgb(255, 233, 207);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    border-radius: 30px;
+    color: orange;
+    margin: 0 auto;
+}
+.section2 .sectwohed h1{
+    font-size: 40px;
+    line-height: 12px;
+    color: rgb(5, 5, 80);
+}
+.section2 .sectwohed p{
+    width: 35%;
+    color: rgb(160, 156, 156);
+    margin: 0 auto;
+}
+
+.section2 .threetab{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.section2 .threetab .tab1{
+    text-align: center;
+    
+}
+.section2 .threetab .tab1 i{
+    font-size: 40px;
+    margin-top: 100px;
+    color: rgb(151, 148, 148);
+}
+.section2 .threetab .tab1 h1{
+    font-size: 20px;
+}
+.section2 .threetab .tab1 p{
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(151, 148, 148);
+    font-size: 15px;
+}
+
+/*Section2 End*/
+
+
+
+/*Section Three Start*/
+.section3{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.section3part{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.section3 .section3part .imgpart img{
+    width: 180%;
+    height: auto;
+}
+.section3 .section3part .textpart{
+    padding-left: 40px;
+    margin-left: 350px;
+}
+.section3 .section3part .textpart h6{
+    width: 80px;
+    background-color: rgb(247, 230, 193);
+    padding: 5px 7px;
+    border-radius: 20px;
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+.section3 .section3part .textpart h1{
+    width: 70%;
+    font-size: 40px;
+    color: rgb(5, 5, 80);
+}
+.section3 .section3part .textpart p{
+    color: rgb(153, 152, 149);
+    font-size: 14px;
+    line-height: 20px;
+}
+.section3 .section3part .textpart ul{
+    color: rgb(153, 152, 149);
+    list-style: square;
+    line-height: 20px;
+}
+.section3 .section3part .textpart button{
+    background-color: rgb(5, 5, 80);
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(5, 5, 80);
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.section3 .section3part .textpart button:hover{
+    background-color: white;
+    color: rgb(5, 5, 80);
+    transition: .3s;
+}
+
+/*Section Three End*/
+
+
+
+
+/*Section Four Start*/
+.section4{
+    width: 100%;
+    height: 800px;
+    margin-top: 200px;
+}
+.sec4hed{
+    text-align: center;
+}
+.sec4hed h6{
+    background-color: rgb(255, 237, 205);
+    padding: 9px 0px;
+    width: 100px;
+    border-radius: 30px;
+    color: orange;
+    margin: 0 auto;
+}
+.sec4hed h1{
+    font-size: 40px;
+    color: rgb(5, 5, 80);
+}
+
+
+.section4 .service{
+    width: 60%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section4 .service .servitem{
+    border: 1px solid rgb(223, 223, 223);
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
+    height: 200px;
+}
+.section4 .service .servitem i{
+    font-size: 45px;
+    color: rgb(194, 191, 191);
+}
+.section4 .service .servitem h1{
+    font-size: 18px;
+    padding-left: 90px;
+}
+.section4 .service .servitem p{
+    color: rgb(180, 177, 177);
+    width: 200px;
+    padding-left: 90px;
+    padding-right: 20px;
+    clear: left;
+}
+
+/*Section Four End*/
+
+
+
+/*Section Five Start*/
+.section5{
+   width: 100%;
+   height: 500px;
+   margin-top: 200px;
+   background-color: rgb(245, 245, 245);
+   padding-bottom: 100px;
+}
+.sec5hed{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+.sec5hed h6{
+    background-color: rgb(255, 237, 200);
+    padding: 7px;
+    color: orange;
+    width: 100px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.sec5hed h1{
+    font-size: 40px;
+    color: rgb(5, 5, 80);
+}
+.sec5hed p{
+    width: 60%;
+    margin: 0 auto;
+    color: rgb(165, 162, 162);
+    font-size: 15px;
+}
+.section5 .sec5tab{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.section5 .sec5tab .tab1{
+    width: 19%;
+    background-color: white;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 20px 40px;
+    line-height: 25px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.section5 .sec5tab .tab1 p{
+    color: rgb(145, 142, 142);
+    font-size: 18px;
+}
+.section5 .sec5tab .tab1 i{
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+.section5 .sec5tab .tab1:hover{
+    border-color: black;
+    transition: .2s;
+}
+
+/*Section Five End*/
+
+
+
+/*Footer Start*/
+footer{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+footer .footerpart{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+footer .footerpart .part1{
+    margin-top: 100px;
+    width: 30%;
+}
+footer .footerpart .part1 i{
+    color: rgb(5, 5, 80);
+    font-size: 30px;
+    padding: 20px 0px;
+}
+footer .footerpart .part1 p{
+    line-height: 20px;
+    color: rgb(145, 142, 142);
+}
+footer .footerpart .part1 h2{
+    font-size: 15px;
+}
+footer .footerpart .part2{
+    margin-top: 70px;
+}
+footer .footerpart .part2 h2{
+    font-size: 15px;
+}
+footer .footerpart .part2 a{
+    text-decoration: none;
+    color: rgb(145, 142, 142);
+}
+footer .footerpart .part2 a:hover{
+    color: black;
+    transition: .2s;
+}
+
+footer .footerpart .part3{
+    margin-top: 70px;
+}
+footer .footerpart .part3 h2{
+    font-size: 15px;
+}
+footer .footerpart .part3 a{
+    text-decoration: none;
+    color: rgb(145, 142, 142);
+}
+footer .footerpart .part3 a:hover{
+    color: black;
+    transition: .2s;
+}
+    
+footer .footerpart .part4{
+    margin-top: 70px;
+}
+footer .footerpart .part4 h2{
+    font-size: 15px;
+}
+footer .footerpart .part4 i{
+    padding-right: 10px;
+    color: rgb(145, 142, 142);
+}
+footer .footerpart .part4 p a{
+    text-decoration: none;
+    color: rgb(145, 142, 142);
+}
+footer .footerpart .part4 a:hover{
+    color: black;
+    transition: .2s;
+}
+
+.footend{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+}
+.footend p{
+    text-align: center;
+    color: rgb(145, 142, 142);
+}
+
+/*Footer End*/
+
+
+@media (max-width:768px){
+
+    .navigation{
+        width: 100%;
+        height: auto;
+    }
+    .navigation .navbar{
+        width: 100%;
+        height: auto;
+    }
+    .navigation .navbar .logo{
+        width: 20%;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navigation .option ul{
+       position: absolute;
+       left: 0px;
+       top: 80px;
+       display: grid;
+    }
+    .navigation .option ul li{
+        padding-top: 10px;
+    }
+    .navigation .navbar .btn{
+        margin-right: 400px;
+        margin-top: 20px;
+    }
+    .navigation .navbar .btn button{
+        padding: 5px 30px;
+
+    }
+
+
+
+
+
+
+
+
+    .section{
+        display: block;
+        margin-top: 300px;
+    }
+    .section .section1 h6{
+        width: 50%;
+    }
+    .section .section1 h1{
+        width: 95%;
+        font-size: 30px;
+    }
+    .section .section1 p{
+        width: 80%;
+    }
+    .section .sec1img img{
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+
+
+
+
+
+
+    .section2 .sectwohed p{
+        width: 90%;
+    }
+    .section2 .threetab{
+        display: block;
+    }
+    .section2 .threetab .tab1 p{
+        width: 95%;
+    }
+
+
+
+
+
+
+
+    .section3{
+        width: 100%;
+        margin-top: 400px;
+    }
+    .section3part{
+        display: block;
+    }
+    .section3 .section3part .imgpart img{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+        
+    }
+    .section3 .section3part .textpart{
+        margin-left: -60px;
+    }
+
+
+
+
+
+
+
+
+    .section4{
+        width: 100%;
+        height: auto;
+        margin-top: 300px;
+    }
+    .section4 .service{
+        display: block;
+        width: 90%;
+    }
+    .section4 .service .servitem p{
+        width: 55%;
+        margin-top: -10px;
+    }
+
+
+
+
+
+
+
+
+    .section5{
+        width: 100%;
+        height: 1250px;
+        padding-top: 50px;
+        margin-top: 600px;
+    }
+    .section5 .sec5hed p{
+        width: 90%;
+    }
+    .section5 .sec5tab{
+        margin-top: 200px;
+        display: block;
+    }
+    .section5 .sec5tab .tab1{
+        width: 80%;
+    }
+
+
+
+
+
+
+    footer{
+       width: 100%;
+       height: auto;
+       padding-left: 10px;
+    }
+    footer .footerpart{
+        width: 100%;
+        height: auto;
+        display: block;
+        line-height: 10px;
+    }
+    footer .footerpart .part1 p{
+        width: 200%;
+    }
+    footer .footerpart .part2{
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
